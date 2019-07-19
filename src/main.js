@@ -1,8 +1,13 @@
 import 'bootstrap'
 import Vue from 'vue'
+import './plugins/fontawesome'
 import App from './App.vue'
-import Nav from './components/Nav'
-import Footer from './components/Footer'
+import Nav from './components/commons/Nav'
+import Footer from './components/commons/Footer'
+import siteInfo from '../src/db/siteInfo'
+
+// import './fa.config';
+
 import router from './router'
 import store from './store'
 
@@ -15,7 +20,7 @@ require('./assets/scss/main.scss');
 Vue.config.productionTip = false;
 
 Vue.component('Nav', Nav);
-Vue.component('Footer', Footer);
+Vue.component('app-footer', Footer);
 
 new Vue({
   router,
@@ -24,3 +29,13 @@ new Vue({
 }).$mount('#app');
 
 
+
+export default {
+    name: 'app',
+    data() {
+
+        return {
+            myJson: siteInfo
+        }
+    }
+}
