@@ -38,6 +38,10 @@
                 <li class="nav-item px-2">
                     <router-link class="nav-link" to="/press">Press</router-link>
                 </li>
+
+                <li class="nav-item px-2">
+                    <router-link class="nav-link" to="/about">About</router-link>
+                </li>
                 <li class="nav-item px-2">
                     <router-link class="nav-link" to="/contact">Contact</router-link>
                 </li>
@@ -57,7 +61,22 @@
 </template>
 
 
-<style scoped>
+<style lang="scss" scoped>
+
+
+    nav {
+
+
+    a {
+        font-weight: bold;
+        color: #2c3e50;
+
+    &.router-link-exact-active {
+         color: #42b983;
+     }
+    }
+    }
+
 
     #app {
 

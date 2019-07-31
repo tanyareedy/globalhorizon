@@ -13,7 +13,7 @@ import store from './store'
 
 
 
-// Require the main Sass manifest file
+// Require the main ØrouSass manifest file
 require('./assets/scss/main.scss');
 
 
@@ -21,6 +21,9 @@ Vue.config.productionTip = false;
 
 Vue.component('Nav', Nav);
 Vue.component('app-footer', Footer);
+
+
+
 
 new Vue({
   router,

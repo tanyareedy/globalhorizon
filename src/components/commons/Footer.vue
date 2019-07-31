@@ -57,7 +57,10 @@
             return {
                 myJson: siteInfo
             }
-        }
+        },
+
+
+
     }
 
 </script>

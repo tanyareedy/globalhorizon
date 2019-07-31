@@ -1,38 +1,41 @@
 <template>
-    <section class="container">
+    <section class="container" id="country">
         <h1 class="text-center py-3">Trustpilot rates Globalhorizon as excellent</h1>
 
+
         <div id="testimonial">
-            <div class="col-lg-6">
-                <div class="row">
-                        <div v-for="testify in testifys" class="my-3 mx-2 border shadow-sm bg-white">
-                            <div class="row px-2">
-                                <div class="col-3">
-                                    <img class="profilePicture mt-2" v-bind:src="testify.image" alt="image">
-                                </div>
-                                <div class="col-9 px-2">
-                                    <h4 class="mb-0 mt-2">{{testify.name}}</h4>
-                                    <p class="text-muted mt-0">
-                                        <font-awesome-icon class="mx-2" icon="pen"/>
-                                        &nbsp;{{testify.reviewCount}} reviews &nbsp;
-                                        <font-awesome-icon class="mx-2" icon="map-marked-alt"/>
-                                        &nbsp;{{testify.location}}
-                                    </p>
-                                </div>
+
+                <div  class="row">
+                    <div v-for="testify in testifys" class="col-lg-6">
+
+                    <div  class="my-3 px-2 border rounded shadow-sm bg-white ">
+                        <div class="row">
+                            <div class="col-3">
+                                <img class="profilePicture mt-2" v-bind:src="testify.image" alt="image">
                             </div>
-                            <hr>
-                            <div id="star">
-                                <font-awesome-icon class="mx-1" icon="star"/>
-                                <font-awesome-icon class="mx-1" icon="star"/>
-                                <font-awesome-icon class="mx-1" icon="star"/>
-                                <font-awesome-icon class="mx-1" icon="star"/>
-                                <font-awesome-icon class="mx-1" icon="star"/>
-                            </div>
-                            <div>
-                                <h5>{{testify.heading}}</h5>
-                                <p>{{testify.Text}}</p>
+                            <div class="col-9 px-2">
+                                <h4 class="mb-0 mt-2">{{testify.name}}</h4>
+                                <p class="text-muted mt-0">
+                                    <font-awesome-icon class="mx-2" icon="pen"/>
+                                    &nbsp;{{testify.reviewCount}} reviews &nbsp;
+                                    <font-awesome-icon class="mx-2" icon="map-marked-alt"/>
+                                    &nbsp;{{testify.location}}
+                                </p>
                             </div>
                         </div>
+                        <hr>
+                        <div id="star">
+                            <font-awesome-icon class="mx-1" icon="star"/>
+                            <font-awesome-icon class="mx-1" icon="star"/>
+                            <font-awesome-icon class="mx-1" icon="star"/>
+                            <font-awesome-icon class="mx-1" icon="star"/>
+                            <font-awesome-icon class="mx-1" icon="star"/>
+                        </div>
+                        <div>
+                            <h5>{{testify.heading}}</h5>
+                            <p>{{testify.Text}}</p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -46,13 +49,14 @@
 <script>
     export default {
 
+
         data() {
             return {
                 testifys: [
                     {
                         image: '/img/icon/testify/sun.jpg',
                         name: 'George TePoono',
-                        reviewCount: '33333',
+                        reviewCount: '3',
                         location: 'Sydney, AU',
                         heading: 'Thank you guys',
                         Text: 'Thank you guys, Customer service was very helpful through out the process. i\'d recommend you any day',
