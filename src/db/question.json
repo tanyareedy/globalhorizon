@@ -1,0 +1,172 @@
+[
+  {
+    "name": "email",
+    "question": "What is your BEST email address?",
+    "helpText": "Type your best Email",
+    "type": "email",
+    "error": "Please input a valid email address"
+  },
+  {
+    "name": "origin",
+    "question": "What is your country of origin",
+    "helpText": "The country where you were born",
+    "type": "countries",
+    "error": "Please select your Origin"
+  },
+  {
+    "name": "location",
+    "question": "What is your Current Location",
+    "helpText": "Where are you currently leaving",
+    "type": "countries",
+    "error": "Please tell us your current Location"
+  },
+  {
+    "name": "gender",
+    "question": "Are you Male or Female",
+    "helpText": "select your gender",
+    "type": "radio",
+    "error": "Please Select a Gender",
+    "list": [
+      "Male",
+      "Female",
+      "Others"
+    ]
+  },
+  {
+    "name": "innocent",
+    "question": "Do you have a clean criminal record ?",
+    "helpText": "Select if you have a criminal record (this will not disqualify you, we may be able to help you",
+    "type": "radio",
+    "error": "Please select an Answer",
+    "list": [
+      "Yes, i have a clean criminal record",
+      "No"
+    ]
+  },
+  {
+    "name": "crime",
+    "question": "Please explain your criminal record.",
+    "helpText": "This will not disqualify you, We may be able to help you, but need more details to make sure(not less than 50 words)",
+    "type": "textarea",
+    "error": "We need some details (not less than 50 words)"
+  },
+  {
+    "name": "passport",
+    "question": "How long have you been considering a second passport  ?",
+    "helpText": "Tell us how long you have been planning this (not less than 50 words)",
+    "type": "textarea",
+    "error": "Tell us how long you have considered a second passport (not less than 50 words)"
+  },
+  {
+    "name": "challenge",
+    "question": "What has been holding you back ? (No vague answers, please)",
+    "helpText": "(Please be honest with yourself) Explain the challenges you have face (not less than 50 words)",
+    "type": "textarea",
+    "error": "Tell us what has been holding you back (not less than 50 words)"
+  },
+  {
+    "name": "situation",
+    "question": "What best describe your situation seeking help?",
+    "helpText": "(Please be honest with yourself) Explain the challenges you have face",
+    "type": "radio",
+    "error": "Please select an Answer",
+
+    "list": [
+      "I am still hovering between options",
+      "I have spent time talking to other people that cannot help me, and now I am ready to find a reliable team that can assist me. "
+    ]
+  },
+  {
+    "name": "findUs",
+    "question": " How/Where did you learn about Global-Horizon ?",
+    "helpText": "(Briefly tell us how you heard about Global horizon",
+    "type": "textarea",
+    "error": "Please tell us how you heard about us"
+  },
+  {
+    "name": "focus",
+    "question": "  What are you most focused on getting done ?",
+    "helpText": "Explain the most important area",
+    "type": "radio",
+    "error": "Please select an Answer",
+    "list": [
+      "Acquiring a second passport or residency",
+      "Moving my business to a tax haven"
+    ]
+  },
+  {
+    "name": "job",
+    "question": "Are you self-employed entrepreneur? aka you control your monthly income",
+    "helpText": "",
+    "type": "radio",
+    "error": "Please select an Answer",
+    "list": [
+      "No, I work for somebody else.",
+      "Yes, I work for myself."
+    ]
+  },
+  {
+    "name": "workPlace",
+    "question": "Is your business or job doable from any location??",
+    "helpText": "",
+    "type": "radio",
+    "error": "Please select an Answer",
+    "list": [
+      "No, it is not",
+      "Yes, i can work from  anywhere "
+    ]
+  },
+  {
+    "name": "income",
+    "question": "What was your gross business revenue from all sources in the LAST 30 days? (in US dollars)",
+    "helpText": "",
+    "type": "radio",
+    "error": "Please select an Answer",
+    "list": [
+      "Less than $10K",
+      "$10K-25K",
+      "$25K-50K",
+      "$50K-100K",
+      "$100K or more"
+    ]
+  },
+  {
+    "name": "approve",
+    "question": "If my application is submitted and GlobalHorizon approves to assist me achieve what I seek",
+    "helpText": "",
+    "type": "radio",
+    "error": "Please select an Answer",
+    "list": [
+      " I am ready to move forward without delays ",
+      " I would need some time to sleep on it",
+      " I am not ready I just want to understand the process"
+    ]
+  },
+  {
+    "name": "person",
+    "question":"What is your full name",
+    "helpText": "Please enter your full Name(Surname first)",
+    "type": "text",
+    "error": "Please tell us your name"
+  },
+  {
+    "name": "phone",
+    "question":"What is your best phone number",
+    "helpText": "Please enter your country code eg(+123 444 555 66)",
+    "type": "text",
+    "error": "Phone number can not be less than 7"
+  },
+  {
+    "name": "payment",
+    "question": "Final question, if you accepted to be assisted by GlobalHorizon how would you decide to pay?",
+    "helpText": "",
+    "type": "radio",
+    "error": "Please select an Answer",
+    "list": [
+      "Paypal",
+      "Credit Card",
+      "Bitcoin",
+      "Wire Transfer"
+    ]
+  }
+]
